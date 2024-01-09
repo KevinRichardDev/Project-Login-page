@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 @font-face {
   font-family: "Poppins EB";
   src: url(../fonts/Poppins-ExtraBold.ttf);
@@ -154,4 +156,13 @@ input[type="text"]:focus{
   text-decoration: underline;
 }
 
-@media screen and (max-width:)
+@media screen and (max-width: 560px) {
+  .container {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .container {
+    max-width: 100%;
+  }
+}
